@@ -4,16 +4,10 @@
     padding: 0px;
     transition-duration: 0.8s;
 }
-.lato{
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    line-height: 1.8;
-    font-weight: normal;
-}
 .container{
     max-width: 1320px;
     margin: auto;
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 .width100{
     width: 100%;
@@ -33,6 +27,7 @@
 
 .header{
     display: flex;
+    flex-wrap: wrap;
     border-bottom: 1px solid rgb(217, 212, 212);
 }
 .div1{
@@ -158,7 +153,7 @@
 .images1{
     background-image: url(Images/Slider/headphone.jpg);
     width: 100%;
-    background-position: left;
+    background-position: center;
     position: relative;
 }
 .images2{
@@ -167,6 +162,7 @@
     background-blend-mode: overlay;
     background-color: rgb(150, 173, 180);
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 .images3{
@@ -199,6 +195,10 @@
     padding: 5px;
     border-radius: 50%;
     margin: 5px;
+    background-color: rgba(0, 0, 0, .6);;
+}
+.btn a:hover{
+    background-color: rgba(255, 255, 255, .6);;
 }
 .idiv{
     /* border: 1px solid red; */
@@ -478,6 +478,122 @@
     background-color: #EB984E;
 }
 
- 
 
+/* -----------------------------------All Products----------------------------- */
+
+.heading1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.heading1 h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.box1{
+    position: relative;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin-bottom: 40px;
+    width: 21%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* text-align: center; */
+}
+.img{
+    border-bottom: 1px solid rgb(217, 212, 212);
+    width: 100%;
+    /* height: 300px; */
+}
+.smallbox1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.smallbox1 p{
+    color: #364253;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.smallbox1 span{
+    color: #364253;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+}
+/* .bag{
+    border: 1px solid #EB984E;
+    color: #EB984E;
+    position: absolute;
+    border-radius: 50%;
+    /* font-size: 48px; 
+}*/
+/* .ri-handbag-line
+    font-size: 48px;
+    /* padding: 10px; 
+}*/
+ 
+ 
+.over{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 347px;
+    opacity: 0;
+}
+.over:hover{
+    opacity: 1;
+    background-color: #6c798beb;
+}
+.microbox a{
+    display: inline-block;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: #ffffffea;
+    color: #EB984E;
+}
+.microbox0 a{
+    display: inline-block;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    padding: 10px 26px;
+    border-radius: 50px;
+    background-color:#EB984E;
+    color: #ffffffea;
+}
+.microbox0 p{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    padding-bottom: 30px;
+}
+.smallbox0 span{
+    color: #364253;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+}
 
