@@ -572,13 +572,17 @@
     color: #EB984E;
 }
 .microbox0 a{
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     /* border: 1px solid red; */
     padding: 10px 26px;
     border-radius: 50px;
     background-color:#EB984E;
     color: #ffffffea;
+}
+.microbox0{
+    display: flex;
+    flex-direction: column;
 }
 .microbox0 p{
     color: #ffffff;
@@ -590,10 +594,71 @@
     letter-spacing: normal;
     padding-bottom: 30px;
 }
-.smallbox0 span{
+.smallbox0 h6{
     color: #364253;
     font-weight: bold;
     font-size: 18px;
     padding-top: 20px;
 }
+
+
+/* --------------------------------Men-section----------------- */
+
+.cellpadding3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.majorbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    padding: 20px 0px;
+}
+.majorbox1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+    padding: 20px 0px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.wrap h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: center;
+}
+.wrap p{
+    color: #6C798B;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: center;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.wrap1 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: #EB984E;
+    color: #ffffff;
+}
+
 
