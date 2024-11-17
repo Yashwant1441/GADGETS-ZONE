@@ -2,12 +2,12 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    transition-duration: 0.8s;
+    /* transition-duration: 0.3s; */
 }
 .container{
     max-width: 1320px;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .width100{
     width: 100%;
@@ -114,7 +114,7 @@
     width: 400%;
     height: 500px;
     display: flex;
-    /* animation-name: element; */
+    animation-name: element;
     animation-duration: 10s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
@@ -661,4 +661,76 @@
     color: #ffffff;
 }
 
+
+/* ----------------------------Best Seller------------------- */
+
+.heading2 h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+
+/* -------------------------------footer------------------------ */
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.box2 h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.box2 p{
+    color: #6C798B;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 20px;
+}
+.d{
+    margin-top: 20px;
+}
+.d a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid #EB984E;
+    background-color: #ffffff;
+    color: #EB984E;
+    border-radius: 50px;
+}
+.d a:hover{
+    background-color: #EB984E;
+    color: #ffffff;
+}
+.box2 h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+    margin-top: 20px;
+}
+.box2 img{
+    margin-top: 20px;
+}
 
