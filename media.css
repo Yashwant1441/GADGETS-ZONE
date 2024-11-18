@@ -1,0 +1,117 @@
+@media (max-width:991px) {
+    .box1{
+        width: 45%;
+   }
+   .idiv h2{
+    font-size: 2em;
+    line-height: 30px;
+}
+    .idiv a{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+}
+
+@media (max-width:390px) {
+    .majorbox{
+        width: 90%;
+    }
+    .majorbox1{
+        width: 90%;
+    }
+    .majorbox img{
+        width: 100%;
+    }
+    .box img{
+        width: 90%;
+        padding-left: 55px;
+    }
+    .cellpadding1{
+        padding: 20px;
+    }
+    .box0{
+        padding: 20px;
+    }
+    .smallbox0{
+        padding: 0px 20px;
+    }
+    .box{
+        margin-bottom: 50px;
+    }
+    .smallbox0 p{
+        padding: 10px 0px;
+    }
+    .div1{
+        text-align: center;
+    }
+    .div1{
+        width: 65%;
+        text-align: end;
+    }
+    .div2{
+        width: 35%;
+    }
+    .idiv{
+        left: 50px;
+    }
+    .idiv h2{
+        font-size: 2em;
+        line-height: 30px;
+    }
+    .idiv a{
+        font-size: 12px;
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+    .idiv0{
+        left: 70px;
+    }
+    .idiv0 h3{
+        font-size: 2em;
+    }
+    .images3{
+        background-size: auto;
+        background-position: center;
+    }
+    .idiv2{
+        left: 0;
+    }
+    .idiv2 h4{
+        font-size: 1em;
+    }
+    .idiv2 h2{
+        font-size: 2em;
+    }
+    .idiv2 p{
+        line-height: 1.2;
+    }
+    .idiv2 a{
+        font-size: 14px;
+    }
+    .idiv3{
+        left: 0;
+        top: 90px;
+    }
+    .idiv3 h2{
+        font-size: 2em;
+    }
+    .idiv3 a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:380px) {
+    .div3 a{
+        padding: 5px 5px;
+    }
+    .idiv h2{
+        font-size: 2em;
+        line-height: 30px;
+    }
+    .idiv a{
+        font-size: 12px;
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+}

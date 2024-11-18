@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    /* transition-duration: 0.3s; */
+    /* transition-duration: 0.3s;
+     */
 }
 .container{
     max-width: 1320px;
@@ -35,6 +36,8 @@
     text-align: end;
     margin-bottom: 20px;
     margin-top: 10px;
+    /* border: 1px solid red; */
+    padding-top: 8px;
 }
 .div1 p{
     color: #364253;
@@ -51,6 +54,7 @@
     width: 50%;
     margin-bottom: 20px;
     margin-top: 10px;
+    /* border: 1px solid red; */
 }
 .smalldiv0 a{
     text-decoration: none;
@@ -78,6 +82,7 @@
 }
 .div3{
     margin-right: 25px;
+    /* border: 1px solid red; */
 }
 .div3 a{
     text-decoration: none;
@@ -114,6 +119,7 @@
     width: 400%;
     height: 500px;
     display: flex;
+    /* flex-wrap: wrap; */
     animation-name: element;
     animation-duration: 10s;
     animation-timing-function: ease-out;
@@ -155,6 +161,8 @@
     width: 100%;
     background-position: center;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 .images2{
     background-image: url(Images/Slider/handsfree.jpg);
@@ -164,6 +172,8 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 .images3{
     background-image: url(Images/Slider/girl.jpg);
@@ -173,6 +183,8 @@
     background-blend-mode: overlay;
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 .images4{
     background-image: url(Images/Slider/gadgets.jpg);
@@ -279,7 +291,7 @@
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
     color: #ffffff;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: left;
 }
 .idiv2 h4{
@@ -308,7 +320,7 @@
 .idiv2 a{
     display: inline-flex;
     padding: 15px 25px;
-    font: 16px;
+    font-size: 16px;
     text-decoration: none;
     color: #EB984E;
     background-color: #ffffff;
@@ -341,7 +353,7 @@
     display: inline-block;
     text-decoration: none;
     padding: 15px 25px;
-    font: 16px;
+    font-size: 16px;
     color: #EB984E;
     background-color: #ffffff;
     font-family: 'Lato', sans-serif;
@@ -433,6 +445,7 @@
     text-transform: none;
     line-height: 1.8;
     letter-spacing: normal;
+    text-align: center;
 }
 .cellpadding2{
     display: flex;
