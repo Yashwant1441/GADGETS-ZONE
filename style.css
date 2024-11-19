@@ -391,6 +391,7 @@
     text-align: left;
     padding: 10px;
     flex-wrap: wrap;
+    /* flex-direction: column; */
 }
 .smallbox h4{
     padding-left: 15px;
@@ -402,6 +403,7 @@
     line-height: 1.8;
     letter-spacing: normal;
     padding-top: 12px;
+    text-align: center;
 }
 .smallbox p{
     color: #6C798B;
